@@ -1,0 +1,23 @@
+.about-text {
+  margin-top: 50px;
+}
+
+.about-btn {
+  padding: 20px;
+}
+
+.mascot {
+  width: 130px;
+}
+
+@media screen and (max-width: 768px) {
+  .mascot {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .mascot {
+    width: 90px;
+  }
+}
