@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import CellPhone from "./CellPhone";
 import Mascot from "./Mascot";
 import About from "./About";
 
 const MainContainer = () => {
   return (
-    <Container className="mt-4">
+    <Container>
       <Row>
         <Col xs={5} md={3}>
           <CellPhone />

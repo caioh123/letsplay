@@ -1,5 +1,16 @@
-.about-text {
-  margin-top: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-btn {
@@ -20,4 +31,28 @@
   .mascot {
     width: 90px;
   }
+}
+
+.img {
+  background: url("../images/testebg.png");
+  width: 100%;
+  z-index: -1;
+  height: 92.6vh;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.container-slider {
+  max-width: 50vw;
+}
+
+.carousel-page {
+  margin-top: 6%;
+}
+
+.subtitle {
+  font-size: 1.2rem;
 }
